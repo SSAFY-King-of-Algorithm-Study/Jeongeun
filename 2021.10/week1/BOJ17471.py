@@ -40,8 +40,6 @@ for i in range(N):
     for j in range(1, len(input_list)):
         board[i].append(input_list[j]-1) # 0부터 시작하게..
 
-
-# 될 수 있는 최고 수 + 1
 global minResult
 minResult = sys.maxsize
 
